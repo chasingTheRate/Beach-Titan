@@ -4,7 +4,7 @@ Project Beach Titan is an iOS app designed to control a custom electric PVC beac
   
 Current features include:
 
-  Cruise: Allows the user to set the power level to a constant level without the need to interact with the app.
+  Cruise: Allows the user to set the power level to a constant level without the need to interact with the app. 
   Power Limit: Allows the user to limit the max power allowed to the DC motor
 
 Future enhancements will allow the cart to autonomously follow the user using a combination of GPS, bluetooth and/or Wifi.
