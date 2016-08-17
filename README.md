@@ -1,4 +1,4 @@
-# Beach-Titan
+# Project Beach Titan
 
 Project Beach Titan is an iOS app designed to control a custom electric PVC beach cart via bluetooth Low Energy (and later GPS). The app sends both directional and speed data from an iOS device to a bluetooth receiver (Raspberry Pi 3 w/ NodeJS) to control the cart. The raspberry pi uses the data to control a linear actuator, for direction, and a DC motor, for power.
   
