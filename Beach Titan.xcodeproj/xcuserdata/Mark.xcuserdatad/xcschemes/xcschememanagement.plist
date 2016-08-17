@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BeachTitanWatch (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>BeachTitanWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Project Beach Titan.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4D3236A01D3D86CB004D43B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D3236B71D3D86CC004D43B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D3236C21D3D86CC004D43B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D65EFB51D46DCE7007671EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

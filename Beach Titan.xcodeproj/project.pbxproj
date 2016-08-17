@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D3236A51D3D86CC004D43B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3236A41D3D86CC004D43B4 /* AppDelegate.swift */; };
+		4D3236AA1D3D86CC004D43B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3236A81D3D86CC004D43B4 /* Main.storyboard */; };
+		4D3236AD1D3D86CC004D43B4 /* Project_Beach_Titan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D3236AB1D3D86CC004D43B4 /* Project_Beach_Titan.xcdatamodeld */; };
+		4D3236AF1D3D86CC004D43B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3236AE1D3D86CC004D43B4 /* Assets.xcassets */; };
+		4D3236B21D3D86CC004D43B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3236B01D3D86CC004D43B4 /* LaunchScreen.storyboard */; };
+		4D3236BD1D3D86CC004D43B4 /* Project_Beach_TitanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3236BC1D3D86CC004D43B4 /* Project_Beach_TitanTests.swift */; };
+		4D3236C81D3D86CC004D43B4 /* Project_Beach_TitanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3236C71D3D86CC004D43B4 /* Project_Beach_TitanUITests.swift */; };
+		4D3236DC1D3D89E0004D43B4 /* GpsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3236DB1D3D89E0004D43B4 /* GpsViewController.swift */; };
+		4D498DA91D498E6C0036CDD8 /* 0deg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D498DA01D498E6C0036CDD8 /* 0deg.png */; };
+		4D498DAA1D498E6C0036CDD8 /* 30deg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D498DA11D498E6C0036CDD8 /* 30deg.png */; };
+		4D498DAB1D498E6C0036CDD8 /* 45deg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D498DA21D498E6C0036CDD8 /* 45deg.png */; };
+		4D498DAC1D498E6C0036CDD8 /* 60deg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D498DA31D498E6C0036CDD8 /* 60deg.png */; };
+		4D498DAD1D498E6C0036CDD8 /* 90deg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D498DA41D498E6C0036CDD8 /* 90deg.png */; };
+		4D498DAE1D498E6C0036CDD8 /* 120deg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D498DA51D498E6C0036CDD8 /* 120deg.png */; };
+		4D498DAF1D498E6C0036CDD8 /* 135deg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D498DA61D498E6C0036CDD8 /* 135deg.png */; };
+		4D498DB01D498E6C0036CDD8 /* 150deg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D498DA71D498E6C0036CDD8 /* 150deg.png */; };
+		4D498DB11D498E6C0036CDD8 /* 180deg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D498DA81D498E6C0036CDD8 /* 180deg.png */; };
+		4D65EFBA1D46DCE7007671EE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D65EFB81D46DCE7007671EE /* Interface.storyboard */; };
+		4D65EFBC1D46DCE7007671EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D65EFBB1D46DCE7007671EE /* Assets.xcassets */; };
+		4D65EFC31D46DCE7007671EE /* BeachTitanWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4D65EFC21D46DCE7007671EE /* BeachTitanWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4D65EFCA1D46DCE7007671EE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D65EFC91D46DCE7007671EE /* InterfaceController.swift */; };
+		4D65EFCC1D46DCE7007671EE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D65EFCB1D46DCE7007671EE /* ExtensionDelegate.swift */; };
+		4D65EFCE1D46DCE7007671EE /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D65EFCD1D46DCE7007671EE /* NotificationController.swift */; };
+		4D65EFD01D46DCE7007671EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D65EFCF1D46DCE7007671EE /* Assets.xcassets */; };
+		4D65EFD41D46DCE7007671EE /* BeachTitanWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4D65EFB61D46DCE7007671EE /* BeachTitanWatch.app */; };
+		4DA2E1401D42C93C00F2FE17 /* IconWithLabelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2E13F1D42C93C00F2FE17 /* IconWithLabelCollectionViewCell.swift */; };
+		4DA2E1431D430E3C00F2FE17 /* LabelWithLabelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2E1421D430E3C00F2FE17 /* LabelWithLabelCollectionViewCell.swift */; };
+		4DEC76BD1D494D7300418E03 /* ControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC76BC1D494D7300418E03 /* ControlsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D3236B91D3D86CC004D43B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D3236991D3D86CB004D43B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3236A01D3D86CB004D43B4;
+			remoteInfo = "Project Beach Titan";
+		};
+		4D3236C41D3D86CC004D43B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D3236991D3D86CB004D43B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3236A01D3D86CB004D43B4;
+			remoteInfo = "Project Beach Titan";
+		};
+		4D65EFC41D46DCE7007671EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D3236991D3D86CB004D43B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D65EFC11D46DCE7007671EE;
+			remoteInfo = "BeachTitanWatch Extension";
+		};
+		4D65EFD21D46DCE7007671EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D3236991D3D86CB004D43B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D65EFB51D46DCE7007671EE;
+			remoteInfo = BeachTitanWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D65EFDA1D46DCE7007671EE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4D65EFC31D46DCE7007671EE /* BeachTitanWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D65EFDC1D46DCE7007671EE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4D65EFD41D46DCE7007671EE /* BeachTitanWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4D3236A11D3D86CB004D43B4 /* Beach Titan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beach Titan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3236A41D3D86CC004D43B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Project Beach Titan/AppDelegate.swift"; sourceTree = "<group>"; };
+		4D3236A91D3D86CC004D43B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D3236AC1D3D86CC004D43B4 /* Project_Beach_Titan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Project_Beach_Titan.xcdatamodel; sourceTree = "<group>"; };
+		4D3236AE1D3D86CC004D43B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Project Beach Titan/Assets.xcassets"; sourceTree = "<group>"; };
+		4D3236B11D3D86CC004D43B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D3236B31D3D86CC004D43B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Project Beach Titan/Info.plist"; sourceTree = "<group>"; };
+		4D3236B81D3D86CC004D43B4 /* Beach Titan.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beach Titan.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3236BC1D3D86CC004D43B4 /* Project_Beach_TitanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_Beach_TitanTests.swift; sourceTree = "<group>"; };
+		4D3236BE1D3D86CC004D43B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D3236C31D3D86CC004D43B4 /* Beach Titan.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beach Titan.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3236C71D3D86CC004D43B4 /* Project_Beach_TitanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_Beach_TitanUITests.swift; sourceTree = "<group>"; };
+		4D3236C91D3D86CC004D43B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D3236DB1D3D89E0004D43B4 /* GpsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GpsViewController.swift; sourceTree = "<group>"; };
+		4D498DA01D498E6C0036CDD8 /* 0deg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0deg.png; sourceTree = "<group>"; };
+		4D498DA11D498E6C0036CDD8 /* 30deg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 30deg.png; sourceTree = "<group>"; };
+		4D498DA21D498E6C0036CDD8 /* 45deg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 45deg.png; sourceTree = "<group>"; };
+		4D498DA31D498E6C0036CDD8 /* 60deg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60deg.png; sourceTree = "<group>"; };
+		4D498DA41D498E6C0036CDD8 /* 90deg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 90deg.png; sourceTree = "<group>"; };
+		4D498DA51D498E6C0036CDD8 /* 120deg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120deg.png; sourceTree = "<group>"; };
+		4D498DA61D498E6C0036CDD8 /* 135deg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 135deg.png; sourceTree = "<group>"; };
+		4D498DA71D498E6C0036CDD8 /* 150deg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 150deg.png; sourceTree = "<group>"; };
+		4D498DA81D498E6C0036CDD8 /* 180deg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180deg.png; sourceTree = "<group>"; };
+		4D65EFB61D46DCE7007671EE /* BeachTitanWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeachTitanWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D65EFB91D46DCE7007671EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4D65EFBB1D46DCE7007671EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D65EFBD1D46DCE7007671EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D65EFC21D46DCE7007671EE /* BeachTitanWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BeachTitanWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D65EFC81D46DCE7007671EE /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4D65EFC91D46DCE7007671EE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4D65EFCB1D46DCE7007671EE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4D65EFCD1D46DCE7007671EE /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		4D65EFCF1D46DCE7007671EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D65EFD11D46DCE7007671EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA2E13F1D42C93C00F2FE17 /* IconWithLabelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconWithLabelCollectionViewCell.swift; sourceTree = "<group>"; };
+		4DA2E1421D430E3C00F2FE17 /* LabelWithLabelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelWithLabelCollectionViewCell.swift; sourceTree = "<group>"; };
+		4DEC76BC1D494D7300418E03 /* ControlsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D32369E1D3D86CB004D43B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3236B51D3D86CC004D43B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3236C01D3D86CC004D43B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D65EFBF1D46DCE7007671EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D3236981D3D86CB004D43B4 = {
+			isa = PBXGroup;
+			children = (
+				4D3236A31D3D86CB004D43B4 /* Beach Titan */,
+				4D3236D61D3D872D004D43B4 /* Core Data */,
+				4D3236D51D3D870C004D43B4 /* Support Files */,
+				4D3236BB1D3D86CC004D43B4 /* Project Beach TitanTests */,
+				4D3236C61D3D86CC004D43B4 /* Project Beach TitanUITests */,
+				4D65EFB71D46DCE7007671EE /* BeachTitanWatch */,
+				4D65EFC61D46DCE7007671EE /* BeachTitanWatch Extension */,
+				4D3236A21D3D86CB004D43B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D3236A21D3D86CB004D43B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D3236A11D3D86CB004D43B4 /* Beach Titan.app */,
+				4D3236B81D3D86CC004D43B4 /* Beach Titan.xctest */,
+				4D3236C31D3D86CC004D43B4 /* Beach Titan.xctest */,
+				4D65EFB61D46DCE7007671EE /* BeachTitanWatch.app */,
+				4D65EFC21D46DCE7007671EE /* BeachTitanWatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D3236A31D3D86CB004D43B4 /* Beach Titan */ = {
+			isa = PBXGroup;
+			children = (
+				4D3236A81D3D86CC004D43B4 /* Main.storyboard */,
+				4D3236DA1D3D89BC004D43B4 /* View Controllers */,
+				4DA2E13F1D42C93C00F2FE17 /* IconWithLabelCollectionViewCell.swift */,
+				4DA2E1421D430E3C00F2FE17 /* LabelWithLabelCollectionViewCell.swift */,
+			);
+			name = "Beach Titan";
+			path = "Project Beach Titan";
+			sourceTree = "<group>";
+		};
+		4D3236BB1D3D86CC004D43B4 /* Project Beach TitanTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D3236BC1D3D86CC004D43B4 /* Project_Beach_TitanTests.swift */,
+				4D3236BE1D3D86CC004D43B4 /* Info.plist */,
+			);
+			path = "Project Beach TitanTests";
+			sourceTree = "<group>";
+		};
+		4D3236C61D3D86CC004D43B4 /* Project Beach TitanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D3236C71D3D86CC004D43B4 /* Project_Beach_TitanUITests.swift */,
+				4D3236C91D3D86CC004D43B4 /* Info.plist */,
+			);
+			path = "Project Beach TitanUITests";
+			sourceTree = "<group>";
+		};
+		4D3236D51D3D870C004D43B4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D3236A41D3D86CC004D43B4 /* AppDelegate.swift */,
+				4D3236AE1D3D86CC004D43B4 /* Assets.xcassets */,
+				4D3236B01D3D86CC004D43B4 /* LaunchScreen.storyboard */,
+				4D3236B31D3D86CC004D43B4 /* Info.plist */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		4D3236D61D3D872D004D43B4 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				4D3236AB1D3D86CC004D43B4 /* Project_Beach_Titan.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		4D3236DA1D3D89BC004D43B4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DEC76BC1D494D7300418E03 /* ControlsViewController.swift */,
+				4D3236DB1D3D89E0004D43B4 /* GpsViewController.swift */,
+			);
+			name = "View Controllers";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4D498D9F1D498E5B0036CDD8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4D498DA01D498E6C0036CDD8 /* 0deg.png */,
+				4D498DA11D498E6C0036CDD8 /* 30deg.png */,
+				4D498DA21D498E6C0036CDD8 /* 45deg.png */,
+				4D498DA31D498E6C0036CDD8 /* 60deg.png */,
+				4D498DA41D498E6C0036CDD8 /* 90deg.png */,
+				4D498DA51D498E6C0036CDD8 /* 120deg.png */,
+				4D498DA61D498E6C0036CDD8 /* 135deg.png */,
+				4D498DA71D498E6C0036CDD8 /* 150deg.png */,
+				4D498DA81D498E6C0036CDD8 /* 180deg.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4D65EFB71D46DCE7007671EE /* BeachTitanWatch */ = {
+			isa = PBXGroup;
+			children = (
+				4D498D9F1D498E5B0036CDD8 /* Images */,
+				4D65EFB81D46DCE7007671EE /* Interface.storyboard */,
+				4D65EFBB1D46DCE7007671EE /* Assets.xcassets */,
+				4D65EFBD1D46DCE7007671EE /* Info.plist */,
+			);
+			path = BeachTitanWatch;
+			sourceTree = "<group>";
+		};
+		4D65EFC61D46DCE7007671EE /* BeachTitanWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4D65EFC91D46DCE7007671EE /* InterfaceController.swift */,
+				4D65EFCB1D46DCE7007671EE /* ExtensionDelegate.swift */,
+				4D65EFCD1D46DCE7007671EE /* NotificationController.swift */,
+				4D65EFCF1D46DCE7007671EE /* Assets.xcassets */,
+				4D65EFD11D46DCE7007671EE /* Info.plist */,
+				4D65EFC71D46DCE7007671EE /* Supporting Files */,
+			);
+			path = "BeachTitanWatch Extension";
+			sourceTree = "<group>";
+		};
+		4D65EFC71D46DCE7007671EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D65EFC81D46DCE7007671EE /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D3236A01D3D86CB004D43B4 /* Beach Titan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3236CC1D3D86CC004D43B4 /* Build configuration list for PBXNativeTarget "Beach Titan" */;
+			buildPhases = (
+				4D32369D1D3D86CB004D43B4 /* Sources */,
+				4D32369E1D3D86CB004D43B4 /* Frameworks */,
+				4D32369F1D3D86CB004D43B4 /* Resources */,
+				4D65EFDC1D46DCE7007671EE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D65EFD31D46DCE7007671EE /* PBXTargetDependency */,
+			);
+			name = "Beach Titan";
+			productName = "Project Beach Titan";
+			productReference = 4D3236A11D3D86CB004D43B4 /* Beach Titan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D3236B71D3D86CC004D43B4 /* Beach TitanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3236CF1D3D86CC004D43B4 /* Build configuration list for PBXNativeTarget "Beach TitanTests" */;
+			buildPhases = (
+				4D3236B41D3D86CC004D43B4 /* Sources */,
+				4D3236B51D3D86CC004D43B4 /* Frameworks */,
+				4D3236B61D3D86CC004D43B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D3236BA1D3D86CC004D43B4 /* PBXTargetDependency */,
+			);
+			name = "Beach TitanTests";
+			productName = "Project Beach TitanTests";
+			productReference = 4D3236B81D3D86CC004D43B4 /* Beach Titan.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D3236C21D3D86CC004D43B4 /* Beach TitanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3236D21D3D86CC004D43B4 /* Build configuration list for PBXNativeTarget "Beach TitanUITests" */;
+			buildPhases = (
+				4D3236BF1D3D86CC004D43B4 /* Sources */,
+				4D3236C01D3D86CC004D43B4 /* Frameworks */,
+				4D3236C11D3D86CC004D43B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D3236C51D3D86CC004D43B4 /* PBXTargetDependency */,
+			);
+			name = "Beach TitanUITests";
+			productName = "Project Beach TitanUITests";
+			productReference = 4D3236C31D3D86CC004D43B4 /* Beach Titan.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4D65EFB51D46DCE7007671EE /* BeachTitanWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D65EFDB1D46DCE7007671EE /* Build configuration list for PBXNativeTarget "BeachTitanWatch" */;
+			buildPhases = (
+				4D65EFB41D46DCE7007671EE /* Resources */,
+				4D65EFDA1D46DCE7007671EE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D65EFC51D46DCE7007671EE /* PBXTargetDependency */,
+			);
+			name = BeachTitanWatch;
+			productName = BeachTitanWatch;
+			productReference = 4D65EFB61D46DCE7007671EE /* BeachTitanWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4D65EFC11D46DCE7007671EE /* BeachTitanWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D65EFD91D46DCE7007671EE /* Build configuration list for PBXNativeTarget "BeachTitanWatch Extension" */;
+			buildPhases = (
+				4D65EFBE1D46DCE7007671EE /* Sources */,
+				4D65EFBF1D46DCE7007671EE /* Frameworks */,
+				4D65EFC01D46DCE7007671EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BeachTitanWatch Extension";
+			productName = "BeachTitanWatch Extension";
+			productReference = 4D65EFC21D46DCE7007671EE /* BeachTitanWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D3236991D3D86CB004D43B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mark Eaton";
+				TargetAttributes = {
+					4D3236A01D3D86CB004D43B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = C257479H3L;
+					};
+					4D3236B71D3D86CC004D43B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4D3236A01D3D86CB004D43B4;
+					};
+					4D3236C21D3D86CC004D43B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4D3236A01D3D86CB004D43B4;
+					};
+					4D65EFB51D46DCE7007671EE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = C257479H3L;
+					};
+					4D65EFC11D46DCE7007671EE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4D32369C1D3D86CB004D43B4 /* Build configuration list for PBXProject "Beach Titan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D3236981D3D86CB004D43B4;
+			productRefGroup = 4D3236A21D3D86CB004D43B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D3236A01D3D86CB004D43B4 /* Beach Titan */,
+				4D3236B71D3D86CC004D43B4 /* Beach TitanTests */,
+				4D3236C21D3D86CC004D43B4 /* Beach TitanUITests */,
+				4D65EFB51D46DCE7007671EE /* BeachTitanWatch */,
+				4D65EFC11D46DCE7007671EE /* BeachTitanWatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D32369F1D3D86CB004D43B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3236B21D3D86CC004D43B4 /* LaunchScreen.storyboard in Resources */,
+				4D3236AF1D3D86CC004D43B4 /* Assets.xcassets in Resources */,
+				4D3236AA1D3D86CC004D43B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3236B61D3D86CC004D43B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3236C11D3D86CC004D43B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D65EFB41D46DCE7007671EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D498DB11D498E6C0036CDD8 /* 180deg.png in Resources */,
+				4D498DAE1D498E6C0036CDD8 /* 120deg.png in Resources */,
+				4D498DB01D498E6C0036CDD8 /* 150deg.png in Resources */,
+				4D498DA91D498E6C0036CDD8 /* 0deg.png in Resources */,
+				4D498DAB1D498E6C0036CDD8 /* 45deg.png in Resources */,
+				4D498DAC1D498E6C0036CDD8 /* 60deg.png in Resources */,
+				4D498DAD1D498E6C0036CDD8 /* 90deg.png in Resources */,
+				4D498DAF1D498E6C0036CDD8 /* 135deg.png in Resources */,
+				4D65EFBC1D46DCE7007671EE /* Assets.xcassets in Resources */,
+				4D65EFBA1D46DCE7007671EE /* Interface.storyboard in Resources */,
+				4D498DAA1D498E6C0036CDD8 /* 30deg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D65EFC01D46DCE7007671EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D65EFD01D46DCE7007671EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D32369D1D3D86CB004D43B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3236DC1D3D89E0004D43B4 /* GpsViewController.swift in Sources */,
+				4D3236AD1D3D86CC004D43B4 /* Project_Beach_Titan.xcdatamodeld in Sources */,
+				4DEC76BD1D494D7300418E03 /* ControlsViewController.swift in Sources */,
+				4DA2E1431D430E3C00F2FE17 /* LabelWithLabelCollectionViewCell.swift in Sources */,
+				4DA2E1401D42C93C00F2FE17 /* IconWithLabelCollectionViewCell.swift in Sources */,
+				4D3236A51D3D86CC004D43B4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3236B41D3D86CC004D43B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3236BD1D3D86CC004D43B4 /* Project_Beach_TitanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3236BF1D3D86CC004D43B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3236C81D3D86CC004D43B4 /* Project_Beach_TitanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D65EFBE1D46DCE7007671EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D65EFCE1D46DCE7007671EE /* NotificationController.swift in Sources */,
+				4D65EFCC1D46DCE7007671EE /* ExtensionDelegate.swift in Sources */,
+				4D65EFCA1D46DCE7007671EE /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D3236BA1D3D86CC004D43B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D3236A01D3D86CB004D43B4 /* Beach Titan */;
+			targetProxy = 4D3236B91D3D86CC004D43B4 /* PBXContainerItemProxy */;
+		};
+		4D3236C51D3D86CC004D43B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D3236A01D3D86CB004D43B4 /* Beach Titan */;
+			targetProxy = 4D3236C41D3D86CC004D43B4 /* PBXContainerItemProxy */;
+		};
+		4D65EFC51D46DCE7007671EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D65EFC11D46DCE7007671EE /* BeachTitanWatch Extension */;
+			targetProxy = 4D65EFC41D46DCE7007671EE /* PBXContainerItemProxy */;
+		};
+		4D65EFD31D46DCE7007671EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D65EFB51D46DCE7007671EE /* BeachTitanWatch */;
+			targetProxy = 4D65EFD21D46DCE7007671EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D3236A81D3D86CC004D43B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D3236A91D3D86CC004D43B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D3236B01D3D86CC004D43B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D3236B11D3D86CC004D43B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = "Project Beach Titan";
+			sourceTree = "<group>";
+		};
+		4D65EFB81D46DCE7007671EE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D65EFB91D46DCE7007671EE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D3236CA1D3D86CC004D43B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D3236CB1D3D86CC004D43B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D3236CD1D3D86CC004D43B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Project Beach Titan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACE.Project-Beach-Titan";
+				PRODUCT_NAME = "Beach Titan";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		4D3236CE1D3D86CC004D43B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Project Beach Titan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACE.Project-Beach-Titan";
+				PRODUCT_NAME = "Beach Titan";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		4D3236D01D3D86CC004D43B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project Beach TitanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACE.Project-Beach-TitanTests";
+				PRODUCT_NAME = "Beach Titan";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beach Titan.app/Beach Titan";
+			};
+			name = Debug;
+		};
+		4D3236D11D3D86CC004D43B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project Beach TitanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACE.Project-Beach-TitanTests";
+				PRODUCT_NAME = "Beach Titan";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beach Titan.app/Beach Titan";
+			};
+			name = Release;
+		};
+		4D3236D31D3D86CC004D43B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project Beach TitanUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACE.Project-Beach-TitanUITests";
+				PRODUCT_NAME = "Beach Titan";
+				TEST_TARGET_NAME = "Project Beach Titan";
+			};
+			name = Debug;
+		};
+		4D3236D41D3D86CC004D43B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project Beach TitanUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACE.Project-Beach-TitanUITests";
+				PRODUCT_NAME = "Beach Titan";
+				TEST_TARGET_NAME = "Project Beach Titan";
+			};
+			name = Release;
+		};
+		4D65EFD51D46DCE7007671EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = BeachTitanWatch_Extension;
+				INFOPLIST_FILE = BeachTitanWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "ACE.Project-Beach-Titan.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		4D65EFD61D46DCE7007671EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = BeachTitanWatch_Extension;
+				INFOPLIST_FILE = BeachTitanWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "ACE.Project-Beach-Titan.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		4D65EFD71D46DCE7007671EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BeachTitanWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACE.Project-Beach-Titan.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		4D65EFD81D46DCE7007671EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BeachTitanWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACE.Project-Beach-Titan.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D32369C1D3D86CB004D43B4 /* Build configuration list for PBXProject "Beach Titan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3236CA1D3D86CC004D43B4 /* Debug */,
+				4D3236CB1D3D86CC004D43B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3236CC1D3D86CC004D43B4 /* Build configuration list for PBXNativeTarget "Beach Titan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3236CD1D3D86CC004D43B4 /* Debug */,
+				4D3236CE1D3D86CC004D43B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3236CF1D3D86CC004D43B4 /* Build configuration list for PBXNativeTarget "Beach TitanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3236D01D3D86CC004D43B4 /* Debug */,
+				4D3236D11D3D86CC004D43B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3236D21D3D86CC004D43B4 /* Build configuration list for PBXNativeTarget "Beach TitanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3236D31D3D86CC004D43B4 /* Debug */,
+				4D3236D41D3D86CC004D43B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D65EFD91D46DCE7007671EE /* Build configuration list for PBXNativeTarget "BeachTitanWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D65EFD71D46DCE7007671EE /* Debug */,
+				4D65EFD81D46DCE7007671EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D65EFDB1D46DCE7007671EE /* Build configuration list for PBXNativeTarget "BeachTitanWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D65EFD51D46DCE7007671EE /* Debug */,
+				4D65EFD61D46DCE7007671EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4D3236AB1D3D86CC004D43B4 /* Project_Beach_Titan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4D3236AC1D3D86CC004D43B4 /* Project_Beach_Titan.xcdatamodel */,
+			);
+			currentVersion = 4D3236AC1D3D86CC004D43B4 /* Project_Beach_Titan.xcdatamodel */;
+			name = Project_Beach_Titan.xcdatamodeld;
+			path = "Project Beach Titan/Project_Beach_Titan.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4D3236991D3D86CB004D43B4 /* Project object */;
+}

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0730"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4D65EFB51D46DCE7007671EE"
+               BuildableName = "BeachTitanWatch.app"
+               BlueprintName = "BeachTitanWatch"
+               ReferencedContainer = "container:Beach Titan.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4D65EFC11D46DCE7007671EE"
+               BuildableName = "BeachTitanWatch Extension.appex"
+               BlueprintName = "BeachTitanWatch Extension"
+               ReferencedContainer = "container:Beach Titan.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4D3236A01D3D86CB004D43B4"
+               BuildableName = "Beach Titan.app"
+               BlueprintName = "Beach Titan"
+               ReferencedContainer = "container:Beach Titan.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4D65EFB51D46DCE7007671EE"
+            BuildableName = "BeachTitanWatch.app"
+            BlueprintName = "BeachTitanWatch"
+            ReferencedContainer = "container:Beach Titan.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES"
+      notificationPayloadFile = "BeachTitanWatch Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/Beach Titan">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4D65EFB51D46DCE7007671EE"
+            BuildableName = "BeachTitanWatch.app"
+            BlueprintName = "BeachTitanWatch"
+            ReferencedContainer = "container:Beach Titan.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4D65EFB51D46DCE7007671EE"
+            BuildableName = "BeachTitanWatch.app"
+            BlueprintName = "BeachTitanWatch"
+            ReferencedContainer = "container:Beach Titan.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/Beach Titan">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4D65EFB51D46DCE7007671EE"
+            BuildableName = "BeachTitanWatch.app"
+            BlueprintName = "BeachTitanWatch"
+            ReferencedContainer = "container:Beach Titan.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4D65EFB51D46DCE7007671EE"
+            BuildableName = "BeachTitanWatch.app"
+            BlueprintName = "BeachTitanWatch"
+            ReferencedContainer = "container:Beach Titan.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
